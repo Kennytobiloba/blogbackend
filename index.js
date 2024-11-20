@@ -11,7 +11,7 @@ const Userrouter = require("./routes/user.route")
 require('dotenv').config()
 
 app.use(cors({
-  origin:"http://localhost:5173",
+  origin:"https://blogfrontend-p2br.onrender.com",
   credentials: true,
   
 }))
