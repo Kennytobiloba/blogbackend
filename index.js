@@ -11,7 +11,7 @@ const Userrouter = require("./routes/user.route")
 require('dotenv').config()
 
 app.use(cors({
-  origin:"https://blogfrontend-p2br.onrender.com",
+  origin:"https://blog-frontend-dusky-pi.vercel.app",
   credentials: true,
   
 }))
